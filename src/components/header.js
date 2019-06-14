@@ -14,20 +14,33 @@ const HeaderContainer = styled.header`
   margin-bottom: 1.45rem;
   height: 45vh;
 `
-const StyledLink = styled(Link)`
+const HeaderText = styled(Link)`
 color: #fff;
 text-decoration: none;
+font-family: "Montserrat";
+font-weight: 100;
+text-shadow: 2px 2px 3px #777777;
+`
+
+const SubHeader = styled.h2`
+color: #fff;
+text-decoration: none;
+font-family: "Montserrat";
+font-weight: 100;
+text-shadow: 2px 2px 3px #777777;
+padding-top: 1rem;
 `
 
 const Header = ({ siteTitle, siteDescription }) => (
 <HeroImage>
   <HeaderContainer>
     <ContentContainer>
-      <h1 style={{ margin: 0 }}>
-        <StyledLink to="/">
+      <h1 style={{ margin: 0, paddingTop: `5rem`}}>
+        <HeaderText to="/">
           {siteTitle}
-        </StyledLink>
+        </HeaderText>
       </h1>
+      <SubHeader>Custom Carpentry</SubHeader>
       </ContentContainer>
   </HeaderContainer>
   </HeroImage>

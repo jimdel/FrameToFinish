@@ -1,11 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Frame to Finish Custom Carpentry LLC`,
+    title: `Frame to Finish`,
     description: `Hello`,
     author: `James DeLay`,
-  },
-  content: {
-    "test": `This is a GraphQL test`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,7 +35,7 @@ module.exports = {
             family: `Montserrat`,
           },
           {
-            family: ``,
+            family: `Roboto`,
           },
         ],
       },
@@ -46,6 +43,6 @@ module.exports = {
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
   ],
 }

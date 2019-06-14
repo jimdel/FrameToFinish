@@ -39,4 +39,5 @@ const HeroImage = styled(BackgroundSection)`
   background-size: cover;
 `
 
+
 export default HeroImage
